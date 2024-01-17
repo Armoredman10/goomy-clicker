@@ -1,0 +1,91 @@
+.stats-pane {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 350px;
+	z-index: 2;
+	background-color: black;
+	-webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	-o-transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	-webkit-transform: translateX(-300px);
+	    -ms-transform: translateX(-300px);
+	        transform: translateX(-300px);
+	font-family: 'Inconsolata', monospace;
+}
+
+.stats-pane h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.stats-pane p {
+	margin: 1em 0em;
+}
+
+.stats-pane.pinned {
+	-webkit-transform: translateX(0);
+	    -ms-transform: translateX(0);
+	        transform: translateX(0);
+}
+
+.stats-pane:hover {
+	-webkit-transform: translateX(0);
+	    -ms-transform: translateX(0);
+	        transform: translateX(0);
+}
+
+.stats-label {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 50px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	-webkit-writing-mode: vertical-lr;
+	    -ms-writing-mode: tb-lr;
+	        writing-mode: vertical-lr;
+	font-family: 'Oswald', sans-serif;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.stats-content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 50px;
+	padding: 0px 20px;
+}
+
+.stats-table {
+	width: 100%;
+}
+
+.stats-pane tr.spacer {
+	height: 10px;
+}
+
+.stats-pane td.key {
+	width: 40%;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+.stats-pane td.value {
+	font-weight: normal;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/react/StatsPane/index.css

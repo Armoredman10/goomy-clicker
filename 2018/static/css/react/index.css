@@ -1,0 +1,59 @@
+p {
+	margin: 0px;
+}
+
+.goomy-clicker-game {
+	width: 100%;
+	height: 100%;
+}
+
+.game-content {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	-webkit-transition: -webkit-transform 0.1s ease-out;
+	transition: -webkit-transform 0.1s ease-out;
+	-o-transition: transform 0.1s ease-out;
+	transition: transform 0.1s ease-out;
+	transition: transform 0.1s ease-out, -webkit-transform 0.1s ease-out;
+}
+
+.copyright-notice {
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 16px;
+	margin: 0px;
+	line-height: 24px;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	z-index: 1;
+}
+
+.sentence {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #40d52a;
+}
+
+a:hover {
+	color: #af6feb;
+}
+
+
+// WEBPACK FOOTER //
+// ./src/react/index.css

@@ -1,0 +1,210 @@
+.dialogue-pane-centering {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 10000;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	pointer-events: none;
+}
+
+.dialogue-pane {
+	position: relative;
+	width: 640px;
+	height: 480px;
+	max-width: 100vw;
+	max-height: 100vh;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color: black;
+	border: 4px solid #333333;
+	border-radius: 4px;
+	pointer-events: all;
+}
+
+.dialogue-pane-enter {
+	opacity: 0;
+	-webkit-transform: scale(0.95);
+	    -ms-transform: scale(0.95);
+	        transform: scale(0.95);
+}
+
+.dialogue-pane-enter-active {
+	opacity: 1;
+	-webkit-transform: scale(1.00);
+	    -ms-transform: scale(1.00);
+	        transform: scale(1.00);
+}
+
+.dialogue-pane-exit {
+	opacity: 1;
+	-webkit-transform: scale(1.00);
+	    -ms-transform: scale(1.00);
+	        transform: scale(1.00);
+}
+
+.dialogue-pane-exit-active {
+	opacity: 0;
+	-webkit-transform: scale(0.95);
+	    -ms-transform: scale(0.95);
+	        transform: scale(0.95);
+}
+
+.dialogue-screen {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.dialogue-image {
+	width: 90%;
+	height: 320px;
+	position: relative;
+}
+
+.dialogue-image-entry {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-o-object-position: bottom;
+	   object-position: bottom;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.dialogue-image-entry-enter {
+	opacity: 0;
+	-webkit-transform: translateX(-1em);
+	    -ms-transform: translateX(-1em);
+	        transform: translateX(-1em);
+}
+
+.dialogue-image-entry-enter-active {
+	opacity: 1;
+	-webkit-transform: none;
+	    -ms-transform: none;
+	        transform: none;
+}
+
+.dialogue-image-entry-exit {
+	opacity: 1;
+	-webkit-transform: none;
+	    -ms-transform: none;
+	        transform: none;
+}
+
+.dialogue-image-entry-exit-active {
+	opacity: 0;
+	-webkit-transform: translateX(1em);
+	    -ms-transform: translateX(1em);
+	        transform: translateX(1em);
+}
+
+
+.dialogue-text {
+	width: 90%;
+	height: 120px;
+	margin-top: 10px;
+	position: relative;
+	font: 'Inconsolata', monospace;
+}
+
+.dialogue-text > * {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+
+.dialogue-text-entry {
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.dialogue-text-entry-enter {
+	opacity: 0;
+	-webkit-transform: translateY(-1em);
+	    -ms-transform: translateY(-1em);
+	        transform: translateY(-1em);
+}
+
+.dialogue-text-entry-enter-active {
+	opacity: 1;
+	-webkit-transform: none;
+	    -ms-transform: none;
+	        transform: none;
+}
+
+.dialogue-text-entry-exit {
+	opacity: 1;
+	-webkit-transform: none;
+	    -ms-transform: none;
+	        transform: none;
+}
+
+.dialogue-text-entry-exit-active {
+	opacity: 0;
+	-webkit-transform: translateY(1em);
+	    -ms-transform: translateY(1em);
+	        transform: translateY(1em);
+}
+
+
+.dialogue-pane .next {
+	position: absolute;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-direction: right;
+	    flex-direction: right;
+	right: 10px;
+	bottom: 10px;
+	width: 60px;
+	height: 30px;
+	overflow: hidden;
+	border: 1px solid white;
+	border-bottom: 3px solid white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.dialogue-pane:active .next {
+	border: 1px solid white;
+	border-top: 3px solid white;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/react/DialoguePane/index.css

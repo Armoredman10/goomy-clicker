@@ -1,0 +1,36 @@
+#floaters {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: visible;
+	z-index: 5000;
+	font-family: 'Oswald', sans-serif;
+	color: #e9e9e9;
+	pointer-events: none;
+}
+
+.floater {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 4;
+	font-size: 160%;
+	pointer-events: none;
+	overflow: visible;
+	white-space: nowrap;
+	text-shadow:
+		-1px -1px 5px black, 0px -1px 5px black, 1px -1px 5px black,
+		-1px  0px 5px black, 0px  0px 5px black, 1px  0px 5px black,
+		-1px  1px 5px black, 0px  1px 5px black, 1px  1px 5px black
+		;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	    -ms-transform: translateX(-50%) translateY(-50%);
+	        transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/jquery/floater.css

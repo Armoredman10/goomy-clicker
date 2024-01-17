@@ -1,0 +1,195 @@
+import { BigNumber } from "src/lib/bignum";
+import ScaleComparisonBasis from "./types";
+
+export const volume_comparisons: ScaleComparisonBasis[] = [
+	{
+		unit: new BigNumber("9.9268"),
+		range: [new BigNumber("10"), new BigNumber("10000")],
+		id: "bathtub",
+		zero: "fill a thumble",
+		one: "fill a bathtub",
+		other: "fill {count} bathtubs",
+	},
+	{
+		unit: new BigNumber("382.18"),
+		range: [new BigNumber("382.18"), new BigNumber("3821800")],
+		id: "cubicle",
+		one: "fill an average-sized office cubicle",
+		other: "fill {count} average-sized office cubicles",
+	},
+	{
+		unit: new BigNumber("3433.8"),
+		range: [new BigNumber("3433.8"), new BigNumber("3433800")],
+		id: "loaded_truck",
+		one: "fill up a loaded truck",
+		other: "fill up {count} loaded trucks",
+	},
+	{
+		unit: new BigNumber("30042.6"),
+		range: [new BigNumber("30042.6"), new BigNumber("30000000")],
+		id: "wailord_blimp",
+		one: "fill up a Wailord-sized blimp",
+		other: "fill up {count} Wailord-sized blimps",
+	},
+	{
+		unit: new BigNumber("74919.2"),
+		range: [new BigNumber("74919.2"), new BigNumber("75000000")],
+		id: "two_storey_house",
+		one: "fill up a two-storey house",
+		other: "fill up {count} two-storey houses",
+	},
+	{
+		unit: new BigNumber("156081"),
+		range: [new BigNumber("100000"), new BigNumber("156081e+6")],
+		id: "olympic_pool_volume",
+		one: "fill up an Olympic-sized swimming pool",
+		other: "fill up {count} Olympic-sized swimming pools",
+	},
+	{
+		unit: new BigNumber("19853595"),
+		range: [new BigNumber("19853595"), new BigNumber("19853595e+3")],
+		id: "oil_supertanker",
+		one: "fill up an oil supertanker",
+		other: "fill up {count} oil supertankers",
+	},
+	{
+		unit: new BigNumber("35586633"),
+		range: [new BigNumber("35586633"), new BigNumber("35586633e+3")],
+		id: "football_stadium_volume",
+		one: "fill up a football stadium",
+		other: "fill up {count} football stadiums",
+	},
+	{
+		unit: new BigNumber("65411977"),
+		range: [new BigNumber("65411977"), new BigNumber("65411977e+3")],
+		id: "empire_state_building",
+		one: "fill up the entire Empire State Building",
+		other: "fill up {count} Empire State Buildings",
+	},
+	{
+		unit: new BigNumber("312163448"),
+		range: [new BigNumber("312163448"), new BigNumber("312163448e+3")],
+		id: "sydney_harbour",
+		one: "fill the Sydney Harbour",
+		other: "fill {count} Sydney Harbours",
+	},
+	{
+		unit: new BigNumber("1.74811531e+12"),
+		range: [new BigNumber("1.74811531e+12"), new BigNumber("1.74811531e+15")],
+		id: "borg_cube",
+		one: "fill up the Borg Cube",
+		other: "fill up {count} Borg Cubes",
+	},
+	{
+		unit: new BigNumber("1.02389611e+14"),
+		range: [new BigNumber("1.02389611e+14"), new BigNumber("1.02389611e+17")],
+		id: "lake_ontario",
+		one: "fill up Lake Ontario",
+		other: "fill up Lake Ontario {count} times over",
+	},
+	{
+		unit: new BigNumber("8.55327849e19"),
+		range: [new BigNumber("8.55327849e19"), new BigNumber("8.55327849e22")],
+		id: "earth_oceans",
+		one: "fill up the Earth's oceans",
+		other: "fill up the Earth's oceans {count} times over",
+	},
+	{
+		unit: new BigNumber("3.79778051e21"),
+		range: [new BigNumber("3.79778051e21"), new BigNumber("3.79778051e24")],
+		id: "planet_mercury",
+		one: "create a planet the size of Mercury",
+		other: "create a planet {count} times the size of Mercury",
+	},
+	{
+		unit: new BigNumber("5.79562659e22"),
+		range: [new BigNumber("5.79562659e22"), new BigNumber("5.79562659e25")],
+		id: "planet_venus",
+		one: "create a planet the size of Venus",
+		other: "create a planet {count} times the size of Venus",
+	},
+	{
+		unit: new BigNumber("6.76277138e22"),
+		range: [new BigNumber("6.76277138e22"), new BigNumber("6.76277138e25")],
+		id: "planet_venus",
+		one: "create a planet the size of the Earth",
+		other: "create a planet {count} times the size of the Earth",
+	},
+	{
+		unit: new BigNumber("4.26727434e24"),
+		range: [new BigNumber("4.26727434e24"), new BigNumber("4.26727434e27")],
+		id: "planet_uranus",
+		one: "create a planet the size of Uranus",
+		other: "create a planet {count} times the size of Uranus",
+	},
+	{
+		unit: new BigNumber("5.16380776e25"),
+		range: [new BigNumber("5.16380776e25"), new BigNumber("5.16380776e28")],
+		id: "planet_saturn",
+		one: "create a planet the size of Saturn",
+		other: "create a planet {count} times the size of Saturn",
+	},
+	{
+		unit: new BigNumber("8.93586601e25"),
+		range: [new BigNumber("8.93586601e25"), new BigNumber("8.93586601e28")],
+		id: "planet_jupiter",
+		one: "create a planet the size of Jupiter",
+		other: "create a planet {count} times the size of Jupiter",
+	},
+	{
+		unit: new BigNumber("8.79676598e28"),
+		range: [new BigNumber("8.79676598e28"), new BigNumber("8.79676598e31")],
+		id: "planet_sun",
+		one: "create a planet the size of the Sun",
+		other: "create a planet {count} times the size of the Sun",
+	},
+	{
+		unit: new BigNumber("1.01640418e30"),
+		range: [new BigNumber("1.01640418e30"), new BigNumber("1.01640418e33")],
+		id: "planet_sirius",
+		one: "create a planet the size of Sirius",
+		other: "create a planet {count} times the size of Sirius",
+	},
+	{
+		unit: new BigNumber("8.74057656e32"),
+		range: [new BigNumber("8.74057656e32"), new BigNumber("8.74057656e35")],
+		id: "planet_pollux",
+		one: "create a planet the size of Pollux",
+		other: "create a planet {count} times the size of Pollux",
+	},
+	{
+		unit: new BigNumber("2.62217296e33"),
+		range: [new BigNumber("2.62217296e33"), new BigNumber("2.62217296e36")],
+		id: "planet_arcturus",
+		one: "create a planet the size of Arcturus",
+		other: "create a planet {count} times the size of Arcturus",
+	},
+	{
+		unit: new BigNumber("2.62217296e33"),
+		range: [new BigNumber("2.62217296e33"), new BigNumber("2.62217296e36")],
+		id: "planet_aldebaran",
+		one: "create a planet the size of Aldebaran",
+		other: "create a planet {count} times the size of Aldebaran",
+	},
+	{
+		unit: new BigNumber("2.87190372e38"),
+		range: [new BigNumber("2.87190372e38"), new BigNumber("2.87190372e41")],
+		id: "planet_antares",
+		one: "create a planet the size of Antares",
+		other: "create a planet {count} times the size of Antares",
+	},
+	/*
+		{
+			unit: new BigNumber(""),
+			range: [new BigNumber(""), new BigNumber("")],
+			id: "",
+			one: "",
+			other: "",
+		},
+	*/
+].map(comp => { return { ...comp, type: "volume" } as ScaleComparisonBasis; });
+
+
+
+// WEBPACK FOOTER //
+// ./src/data/scale_comparisons/volume.ts

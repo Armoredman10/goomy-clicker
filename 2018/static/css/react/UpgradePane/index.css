@@ -1,0 +1,148 @@
+.upgrade-pane {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 350px;
+	z-index: 1;
+	background-color: black;
+	-webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	-o-transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	-webkit-transform: translateX(250px);
+	    -ms-transform: translateX(250px);
+	        transform: translateX(250px);
+}
+
+.upgrade-pane:hover {
+	-webkit-transform: translateX(-50px);
+	    -ms-transform: translateX(-50px);
+	        transform: translateX(-50px);
+}
+
+.upgrade-pane-label {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 50px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	-webkit-writing-mode: vertical-rl;
+	    -ms-writing-mode: tb-rl;
+	        writing-mode: vertical-rl;
+	-webkit-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	        transform: rotate(180deg);
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.upgrade-pane-content {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50px;
+	right: 0;
+	overflow: auto;
+}
+
+.upgrade {
+	min-height: 100px;
+	display: block;
+	-ms-flex-align: stretch;
+	    align-items: stretch;
+	background-color: #666666;
+	-webkit-transition: all 0.5s cubic-bezier(0.3, 0, 0.7, 1);
+	-o-transition: all 0.5s cubic-bezier(0.3, 0, 0.7, 1);
+	transition: all 0.5s cubic-bezier(0.3, 0, 0.7, 1);
+	position: relative;
+	cursor: pointer;
+}
+
+.upgrade-exit {
+	opacity: 1;
+}
+
+.upgrade-exit::after {
+	content: "Bought!";
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.upgrade-exit-active {
+	opacity: 0;
+}
+
+.upgrade .header {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+	width: 100%;
+	height: 40px;
+}
+
+.upgrade .name {
+	-ms-flex-positive: 1;
+	    flex-grow: 1;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	padding-left: 10px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.upgrade .next-cost {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-family: 'Inconsolata', monospace;
+	font-size: 80%;
+	padding-right: 10px;
+}
+
+.upgrade .text {
+	-ms-flex-positive: 1;
+	    flex-grow: 1;
+	display: block;
+	font-family: 'Inconsolata', monospace;
+	font-size: 80%;
+	padding: 10px;
+}
+
+.upgrade .text b {
+	color: white;
+}
+
+.upgrade .text p {
+	margin-bottom: 5px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/react/UpgradePane/index.css

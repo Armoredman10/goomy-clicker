@@ -1,0 +1,18 @@
+.goomy-icon {
+	display: inline-block;
+	vertical-align: center;
+	background-image: url('./favicon_big.png');
+	background-size: cover;
+	border-radius: 15%;
+	margin: 0 4px;
+}
+
+.floater .goomy-icon {
+	-webkit-box-shadow: 0px 0px 5px 2px black;
+	        box-shadow: 0px 0px 5px 2px black;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/react/icons/index.css

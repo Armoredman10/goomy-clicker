@@ -1,0 +1,247 @@
+.generator-pane {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	z-index: 2;
+	background-color: black;
+	-webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	-o-transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	-webkit-transform: translateX(250px);
+	    -ms-transform: translateX(250px);
+	        transform: translateX(250px);
+}
+
+.generator-pane:hover {
+	-webkit-transform: translateX(0);
+	    -ms-transform: translateX(0);
+	        transform: translateX(0);
+}
+
+.generators {
+	overflow: auto;
+}
+
+.generator {
+	height: 50px;
+	-ms-flex-negative: 1;
+	    flex-shrink: 1;
+	display: -ms-flexbox;
+	display: flex;	
+	-ms-flex-direction: column;	
+	    flex-direction: column;
+	-ms-flex-align: stretch;
+	    align-items: stretch;
+	background-color: #666666;
+	-webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	-o-transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	transition: all 0.3s cubic-bezier(0.3, 0, 0.7, 1);
+	position: relative;
+	cursor: pointer;
+}
+
+.generator-enter {
+	height: 0;
+}
+
+.generator-enter-active {
+	height: 50px;
+}
+
+.generator-leave {
+	height: 50px;
+	-webkit-transition: all 0s linear;
+	-o-transition: all 0s linear;
+	transition: all 0s linear;
+}
+
+.generator-leave-active {
+	height: 0px;
+}
+
+.generator .cover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.3;
+	-webkit-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+	pointer-events: none;
+}
+
+.generator .cover.new {
+	-webkit-animation: entry-flash 1s 5 cubic-bezier(0.3, 0, 0.7, 1);
+	        animation: entry-flash 1s 5 cubic-bezier(0.3, 0, 0.7, 1);
+}
+
+@-webkit-keyframes entry-flash {
+	0% {
+		background-color: black;
+	}
+	50% {
+		background-color: #e9e9e9;
+	}
+	100% {
+		background-color: black;
+	}
+}
+
+@keyframes entry-flash {
+	0% {
+		background-color: black;
+	}
+	50% {
+		background-color: #e9e9e9;
+	}
+	100% {
+		background-color: black;
+	}
+}
+
+.generator:hover .cover {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.generator .header {
+	-ms-flex-positive: 1;
+	    flex-grow: 1;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+	width: 100%;
+}
+
+.generator .count {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: end;
+	    justify-content: flex-end;
+	-ms-flex-align: center;
+	    align-items: center;
+	width: 50px;
+	-ms-flex-positive: 0;
+	    flex-grow: 0;
+	padding-right: 5px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.generator .name {
+	-ms-flex-positive: 1;
+	    flex-grow: 1;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	padding-left: 5px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.generator .next-cost {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	    align-items: center;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-family: 'Inconsolata', monospace;
+	font-size: 80%;
+	padding-right: 6px;
+}
+
+.tooltip {
+	position: fixed;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-ms-flex-pack: stretch;
+	    justify-content: stretch;
+	right: 300px;
+	top: 0%;
+	bottom: 0%;
+	width: 300px;
+	overflow: auto;
+	background-color: #333333;
+}
+
+.tooltip h1 {
+	-ms-flex-positive: 0;
+	    flex-grow: 0;
+	margin: 15px 20px 5px;
+	font-size: 150%;
+}
+
+.tooltip p {
+	-ms-flex-positive: 0;
+	    flex-grow: 0;
+	margin: 5px 20px;
+	font-size: 80%;
+	font-family: 'Inconsolata', monospace;
+}
+
+.tooltip hr {
+	width: 100%;
+}
+
+.tooltip .flex-flavour {
+	-ms-flex-positive: 1;
+	    flex-grow: 1;
+	margin: 5px 20px;
+	font-size: 80%;
+	font-family: 'Inconsolata', monospace;
+}
+
+.tooltip .controls {
+	display: block;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: rgba(97, 97, 97, 0.1);
+	font-family: 'Inconsolata', monospace;
+}
+
+.tooltip .controls .controls-margin {
+	margin: 4px;
+}
+
+.tooltip .controls .button-row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	    flex-direction: row;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+
+.tooltip .controls button {
+	-ms-flex-preferred-size: 0;
+	    flex-basis: 0;
+	-ms-flex-positive: 1;
+	    flex-grow: 1;
+	margin: 4px;
+}
+
+.tooltip .generator-level {
+	font-size: 75%;
+	margin: 0px 10px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/react/GeneratorPane/index.css

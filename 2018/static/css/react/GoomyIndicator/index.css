@@ -1,0 +1,56 @@
+.goomy-indicator {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+
+.great-goomy {
+	width: 300px;
+	height: 430px;
+	background-image: url('./great_goomy.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin: auto;
+	-webkit-transition: all 0.05s linear;
+	-o-transition: all 0.05s linear;
+	transition: all 0.05s linear;
+}
+
+.great-goomy:active {
+	-webkit-transform: scale(0.95);
+	    -ms-transform: scale(0.95);
+	        transform: scale(0.95);
+}
+
+.goomy-count {
+	font-size: 24px;
+	text-align: center;
+}
+
+.gps-count {
+	font-size: 16px;
+	text-align: center;
+}
+
+.goomy-stats {
+	border: 2px solid #18f268;
+	background-color: #0b7f36;
+	border-radius: 4px;
+	padding: 8px 16px;
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 300px;
+}
+
+.goomy-stats span { -ms-flex-positive: 0; flex-grow: 0; margin-right: 10px; }
+.goomy-stats progress { -ms-flex-positive: 1; flex-grow: 1; }
+
+
+
+// WEBPACK FOOTER //
+// ./src/react/GoomyIndicator/index.css
