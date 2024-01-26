@@ -21738,7 +21738,16 @@
                 game_state: this.game_state
             }), o.createElement(h.a, {
                 game_state: this.game_state
-        })
+        }), o.createElement("p", {
+                className: "copyright-notice"
+            }, o.createElement("span", null, o.createElement("a", {
+                href: "/"
+            }, "Back to the Doodle Pile")), o.createElement("br", null), o.createElement("span", {
+                className: "sentence"
+            }, "Goomy Clicker \xa9 2013-2018 Joe Zeng."), " ", o.createElement("span", {
+                className: "sentence"
+            }, "Pok\xe9mon \xa9 1995-2018 Game Freak, Creatures Inc, Nintendo.")))
+        }),
         ,
         t = v([i.a], t)
     }(o.Component);
