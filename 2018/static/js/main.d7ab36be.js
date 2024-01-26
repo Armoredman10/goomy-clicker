@@ -21747,7 +21747,6 @@
             }, "Goomy Clicker \xa9 2013-2018 Joe Zeng."), " ", o.createElement("span", {
                 className: "sentence"
             }, "Pok\xe9mon \xa9 1995-2018 Game Freak, Creatures Inc, Nintendo.")))
-        }),
         ,
         t = v([i.a], t)
     }(o.Component);
