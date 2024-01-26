@@ -21738,7 +21738,7 @@
                 game_state: this.game_state
             }), o.createElement(h.a, {
                 game_state: this.game_state
-        }
+        })
         ,
         t = v([i.a], t)
     }(o.Component);
