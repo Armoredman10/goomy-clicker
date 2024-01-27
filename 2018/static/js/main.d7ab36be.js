@@ -21695,7 +21695,7 @@
                     var e = Math.ceil(n.game_state.youngsterpocalypse.time_to_destruction / 1e3);
                     document.title = "[" + Object(g.f)("" + Math.floor(e / 60)) + "|" + Object(g.e)("" + Math.floor(e) % 60) + "] - Goomy Clicker"
                 } else
-                    document.title = n.game_state.goomy_count.goomies.toFormat(0, m.a.ROUND_DOWN) + " - Goomy Clicker"
+                    document.title = n.game_state.goomy_count.goomies.toFormat(0, m.a.ROUND_DOWN) + " - Sprigatito Clicker"
             }
             ,
             n.update = function() {
