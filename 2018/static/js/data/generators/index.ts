@@ -9,10 +9,10 @@ function eaib(game_state: GameState, key: string) {
 
 const generator_data: { [id: string]: GeneratorDefinitionDictionary } = {
 	"cursor": {
-		base_cost: "0",
+		base_cost: "20",
 		base_upgrade_cost: "2000",
 		base_gps_fn: (game_state) => {
-			let gps = new BigNumber("9999999992").times(game_state.great_goomy.level);
+			let gps = new BigNumber("0.2").times(game_state.great_goomy.level);
 			return gps;
 		},
 		unlock_level: 0,
