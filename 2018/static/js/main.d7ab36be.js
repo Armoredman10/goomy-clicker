@@ -10586,23 +10586,23 @@
         },
         youngster: {
             name: "Youngster",
-            description: "A nice little youngster who catches sprigatitos."
+            description: "A nice little youngster who catches goomies."
         },
         daycare: {
             name: "Daycare",
-            description: "A daycare where trainers deposit their sprigatitos to breed."
+            description: "A daycare where trainers deposit their goomies to breed."
         },
         reserve: {
             name: "Reserve",
-            description: "A wildlife reserve where sprigatitos are protected Pok\xe9mon."
+            description: "A wildlife reserve where goomies are protected Pok\xe9mon."
         },
         farm: {
             name: "Farm",
-            description: "A place where sprigatitos are farmed for... certain things."
+            description: "A place where goomies are farmed for... certain things."
         },
         goopy_fountain: {
             name: "Goopy Fountain",
-            description: "A natural wellspring that spews nutrient-rich goop to form sprigatitos with."
+            description: "A natural wellspring that spews nutrient-rich goop to form goomies with."
         },
         geothermal_cave: {
             name: "Geothermal Cave",
@@ -10610,19 +10610,19 @@
         },
         oceanic_trench: {
             name: "Oceanic Trench",
-            description: "A trench at the bottom of the ocean that spouts sprigatitos."
+            description: "A trench at the bottom of the ocean that spouts goomies."
         },
         enslaved_arceus: {
             name: "Enslaved Arceus",
-            description: "An Arceus that was captured and forced to give birth to sprigatitos nonstop."
+            description: "An Arceus that was captured and forced to give birth to goomies nonstop."
         },
         cloning_lab: {
             name: "Cloning Lab",
-            description: "A research lab that clones sprigatitos en masse to study their genetic properties."
+            description: "A research lab that clones goomies en masse to study their genetic properties."
         },
         church_of_goomy: {
             name: "Church of Goomy",
-            description: "A congregation that prays to the Great Goomy to rain down more sprigatitos for his great glory."
+            description: "A congregation that prays to the Great Goomy to rain down more goomies for his great glory."
         },
         rng_abuser: {
             name: "RNG Abuser",
@@ -10636,25 +10636,25 @@
             name: "Goothulhu",
             description: "Goothulhu fhtagn! Ph'nglui mglw'nfah Goothulhu R'lyeh wgah'nagl fhtagn!"
         },
-        cryptosprigatitos_server_farm: {
-            name: "Cryptosprigatitos Server Farm",
-            description: "A server farm dedicated to mining ERC20 contracts for the game Cryptosprigatitos."
+        cryptogoomies_server_farm: {
+            name: "Cryptogoomies Server Farm",
+            description: "A server farm dedicated to mining ERC20 contracts for the game Cryptogoomies."
         },
         ecosystem_simulator: {
             name: "Ecosystem Simulator",
-            description: "A giant planet-sized device that simulates entire ecosystems, with the offhand consequence that any sprigatitos formed inside it are real."
+            description: "A giant planet-sized device that simulates entire ecosystems, with the offhand consequence that any goomies formed inside it are real."
         },
         repopulated_planet: {
             name: "Repopulated Planet",
-            description: "A real planet that is invasively repopulated by sprigatitos that are adapted to populate it."
+            description: "A real planet that is invasively repopulated by goomies that are adapted to populate it."
         },
         stellar_nursery: {
             name: "Stellar Nursery",
-            description: "A supernova that condenses into sprigatitos."
+            description: "A supernova that condenses into goomies."
         },
         galactic_nursery: {
             name: "Galactic Nursery",
-            description: "An entire galaxy with a black hole in the middle that spews out sprigatitos as Hawking radiation."
+            description: "An entire galaxy with a black hole in the middle that spews out goomies as Hawking radiation."
         },
         ultimate: {
             name: "Big Bang",
@@ -10690,20 +10690,20 @@
     t.default = {
         title: "Goomy Clicker",
         goomy_count: {
-            one: "{sprigatitos} Goomy",
-            few: "{sprigatitos} sprigatitos",
-            other: "{sprigatitos} sprigatitos"
+            one: "{goomies} Goomy",
+            few: "{goomies} goomies",
+            other: "{goomies} goomies"
         },
         gps_count: {
-            one: "{sprigatitos} Goomy per second",
-            few: "{sprigatitos} sprigatitos per second",
-            other: "{sprigatitos} sprigatitos per second"
+            one: "{goomies} Goomy per second",
+            few: "{goomies} goomies per second",
+            other: "{goomies} goomies per second"
         },
         stats: {
             display: "Stats",
             play_time: "Play time",
-            sprigatitos: "sprigatitos",
-            total_sprigatitos: "Total sprigatitos",
+            goomies: "goomies",
+            total_goomies: "Total goomies",
             exp: "Experience points",
             to_next_level: "To level {level}"
         },
@@ -10732,23 +10732,23 @@
             },
             youngster: {
                 name: "Youngster",
-                description: "A nice little youngster who catches sprigatitos."
+                description: "A nice little youngster who catches goomies."
             },
             daycare: {
                 name: "Daycare",
-                description: "A daycare where trainers deposit their sprigatitos to breed."
+                description: "A daycare where trainers deposit their goomies to breed."
             },
             reserve: {
                 name: "Reserve",
-                description: "A wildlife reserve where sprigatitos are protected Pok\xe9mon."
+                description: "A wildlife reserve where goomies are protected Pok\xe9mon."
             },
             farm: {
                 name: "Farm",
-                description: "A place where sprigatitos are farmed for... certain things."
+                description: "A place where goomies are farmed for... certain things."
             },
             goopy_fountain: {
                 name: "Goopy Fountain",
-                description: "A natural wellspring that spews nutrient-rich goop to form sprigatitos with."
+                description: "A natural wellspring that spews nutrient-rich goop to form goomies with."
             },
             geothermal_cave: {
                 name: "Geothermal Cave",
@@ -10756,19 +10756,19 @@
             },
             oceanic_trench: {
                 name: "Oceanic Trench",
-                description: "A trench at the bottom of the ocean that spouts sprigatitos."
+                description: "A trench at the bottom of the ocean that spouts goomies."
             },
             enslaved_arceus: {
                 name: "Enslaved Arceus",
-                description: "An Arceus that was captured and forced to give birth to sprigatitos nonstop."
+                description: "An Arceus that was captured and forced to give birth to goomies nonstop."
             },
             cloning_lab: {
                 name: "Cloning Lab",
-                description: "A research lab that clones sprigatitos en masse to study their genetic properties."
+                description: "A research lab that clones goomies en masse to study their genetic properties."
             },
             church_of_goomy: {
                 name: "Church of Goomy",
-                description: "A congregation that prays to the Great Goomy to rain down more sprigatitos for his great glory."
+                description: "A congregation that prays to the Great Goomy to rain down more goomies for his great glory."
             },
             rng_abuser: {
                 name: "RNG Abuser",
@@ -10780,27 +10780,27 @@
             },
             ecosystem_simulator: {
                 name: "Ecosystem Simulator",
-                description: "A giant planet-sized device that simulates entire ecosystems, with the offhand consequence that any sprigatitos formed inside it are real."
+                description: "A giant planet-sized device that simulates entire ecosystems, with the offhand consequence that any goomies formed inside it are real."
             },
-            cryptosprigatitos_server_farm: {
-                name: "Cryptosprigatitos Server Farm",
-                description: "A server farm dedicated to mining ERC20 contracts for the game Cryptosprigatitos."
+            cryptogoomies_server_farm: {
+                name: "Cryptogoomies Server Farm",
+                description: "A server farm dedicated to mining ERC20 contracts for the game Cryptogoomies."
             },
             goothulhu: {
                 name: "Goothulhu",
                 description: "Goothulhu fhtagn! Ph'nglui mglw'nfah Goothulhu R'lyeh wgah'nagl fhtagn!"
             },
             repopulated_planet: {
-                name: "Planet of sprigatitos",
-                description: "A real planet that is terraformed by sprigatitos that are adapted to populate it."
+                name: "Planet of goomies",
+                description: "A real planet that is terraformed by goomies that are adapted to populate it."
             },
             stellar_nursery: {
                 name: "Stellar Nursery",
-                description: "A supernova that condenses into sprigatitos."
+                description: "A supernova that condenses into goomies."
             },
             galactic_nursery: {
                 name: "Galactic Nursery",
-                description: "An entire galaxy with a black hole in the middle that spews out sprigatitos as Hawking radiation."
+                description: "An entire galaxy with a black hole in the middle that spews out goomies as Hawking radiation."
             },
             ultimate: {
                 name: "Big Bang",
@@ -10811,15 +10811,15 @@
             gcm1: {
                 name: "Genuine Parts Company",
                 description: {
-                    text: "The mouse and cursors gain {value} sprigatitos per generator per level above 5.",
+                    text: "The mouse and cursors gain {value} goomies per generator per level above 5.",
                     value: "0.5"
                 },
-                caption: "I know we produce automotive parts as our company function, but sprigatitos help with lubricant."
+                caption: "I know we produce automotive parts as our company function, but goomies help with lubricant."
             },
             gcm2: {
                 name: "Georgia Perimeter College",
                 description: {
-                    text: "The mouse and cursors gain {value} sprigatitos per generator per level above 10.",
+                    text: "The mouse and cursors gain {value} goomies per generator per level above 10.",
                     value: "2"
                 },
                 caption: "We've allocated 10% of our college's tuition revenue to Goomy research."
@@ -10827,26 +10827,26 @@
             gcm3: {
                 name: "Green Party of Canada",
                 description: {
-                    text: "The mouse and cursors gain {value} sprigatitos per generator per level above 20.",
+                    text: "The mouse and cursors gain {value} goomies per generator per level above 20.",
                     value: "10"
                 },
-                caption: "Hi, I'm Elizabeth May and I promise to offer free, environmentally certified sprigatitos to anyone who needs them."
+                caption: "Hi, I'm Elizabeth May and I promise to offer free, environmentally certified goomies to anyone who needs them."
             },
             gcm4: {
                 name: "Gigaparsec",
                 description: {
-                    text: "The mouse and cursors gain {value} sprigatitos per generator per level above 40.",
+                    text: "The mouse and cursors gain {value} goomies per generator per level above 40.",
                     value: "100"
                 },
-                caption: "I heard that your swath of sprigatitos laid end to end is up to a gigaparsec now. No? Sure seems like it from here."
+                caption: "I heard that your swath of goomies laid end to end is up to a gigaparsec now. No? Sure seems like it from here."
             },
             gcm5: {
                 name: "Giant Papillary Conjunctivitis",
                 description: {
-                    text: "The mouse and cursors gain {value} sprigatitos per generator per level above 80.",
+                    text: "The mouse and cursors gain {value} goomies per generator per level above 80.",
                     value: "1000"
                 },
-                caption: "With this many sprigatitos being produced, I'm surprised your eyes aren't already allergic."
+                caption: "With this many goomies being produced, I'm surprised your eyes aren't already allergic."
             },
             youngster_great: {
                 name: "Great Ball",
@@ -10878,7 +10878,7 @@
                     text: "Youngsters become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "These shorts are easy to wear and make catching sprigatitos easier too!"
+                caption: "These shorts are easy to wear and make catching goomies easier too!"
             },
             youngster2: {
                 name: "Sweet Scent",
@@ -10886,7 +10886,7 @@
                     text: "Youngsters become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "With Sweet Scent, I can attract more sprigatitos to my present location."
+                caption: "With Sweet Scent, I can attract more goomies to my present location."
             },
             youngster3: {
                 name: "Honey Tree",
@@ -10894,7 +10894,7 @@
                     text: "Youngsters become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "If I slather honey on this tree, sprigatitos will be attracted to it"
+                caption: "If I slather honey on this tree, goomies will be attracted to it"
             },
             youngster4: {
                 name: "Ace Trainer",
@@ -10902,7 +10902,7 @@
                     text: "Youngsters become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "I have my own team of Pok\xe9mon! What am I still doing catching sprigatitos?"
+                caption: "I have my own team of Pok\xe9mon! What am I still doing catching goomies?"
             },
             youngster5: {
                 name: "Team Rocket",
@@ -10910,7 +10910,7 @@
                     text: "Youngsters become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "Steal sprigatitos for profit. Exploit sprigatitos for profit. All sprigatitos exist for the sake of Team Rocket."
+                caption: "Steal goomies for profit. Exploit goomies for profit. All goomies exist for the sake of Team Rocket."
             },
             youngster6: {
                 name: "Gym Leader",
@@ -10918,7 +10918,7 @@
                     text: "Youngsters become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "I love sprigatitos so much, my whole team is made of sprigatitos!"
+                caption: "I love goomies so much, my whole team is made of goomies!"
             },
             youngster7: {
                 name: "Elite Four",
@@ -10926,7 +10926,7 @@
                     text: "Youngsters become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "Goomy is love, Goomy is life. Can you withstand the power of my sprigatitos?"
+                caption: "Goomy is love, Goomy is life. Can you withstand the power of my goomies?"
             },
             youngster8: {
                 name: "Champion",
@@ -10950,7 +10950,7 @@
                     text: "Youngsters become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "All your sprigatitos are belong to me! ALL! HAHA! MINE!"
+                caption: "All your goomies are belong to me! ALL! HAHA! MINE!"
             },
             youngster11: {
                 name: "World Champion",
@@ -11022,7 +11022,7 @@
                     text: "Reserves gain {value} base GpS.",
                     value: "50"
                 },
-                caption: "If we induce more active breeding in the sprigatitos, they'll reproduce a little faster."
+                caption: "If we induce more active breeding in the goomies, they'll reproduce a little faster."
             },
             reserve2: {
                 name: "Pollution Removal",
@@ -11030,7 +11030,7 @@
                     text: "Reserves become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "These sprigatitos need the freshest air we can give them."
+                caption: "These goomies need the freshest air we can give them."
             },
             reserve3: {
                 name: "National Park Status",
@@ -11038,7 +11038,7 @@
                     text: "Reserves become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "Now that our sprigatitos are no longer threatened by private interests, they're free to live without a care."
+                caption: "Now that our goomies are no longer threatened by private interests, they're free to live without a care."
             },
             reserve4: {
                 name: "Expansion Program",
@@ -11046,7 +11046,7 @@
                     text: "Reserves become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "We've petitioned the government to expand the area of our national park. If they disagree, we'll send all the sprigatitos they aren't giving a home straight to the national capital in protest."
+                caption: "We've petitioned the government to expand the area of our national park. If they disagree, we'll send all the goomies they aren't giving a home straight to the national capital in protest."
             },
             reserve5: {
                 name: "Reintroduction",
@@ -11094,7 +11094,7 @@
                     text: "Farms become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "Our genetically modified sprigatitos are virtually identical to organically grown ones."
+                caption: "Our genetically modified goomies are virtually identical to organically grown ones."
             },
             farm5: {
                 name: "Hormonal Therapy",
@@ -11118,7 +11118,7 @@
                     text: "Goopy fountains gain {value} base GpS.",
                     value: "1500"
                 },
-                caption: "sprigatitos that have fresh water in them are healthier in general. Or just plumper, I can't tell."
+                caption: "goomies that have fresh water in them are healthier in general. Or just plumper, I can't tell."
             },
             fountain2: {
                 name: "Geyser",
@@ -11142,7 +11142,7 @@
                     text: "Goopy fountains become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "Our research shows that sprigatitos that stay youthful stay sexually active."
+                caption: "Our research shows that goomies that stay youthful stay sexually active."
             },
             fountain5: {
                 name: "Volcanic Spring",
@@ -11150,7 +11150,7 @@
                     text: "Goopy fountains become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "Creating a warm, moist environment for sprigatitos to live in like those geothermal trenches is more conducive to successful production than anything else you can do."
+                caption: "Creating a warm, moist environment for goomies to live in like those geothermal trenches is more conducive to successful production than anything else you can do."
             },
             fountain_youngster: {
                 name: "Janitors",
@@ -11166,7 +11166,7 @@
                     text: "Geothermal caves gain {value} base GpS.",
                     value: "10,000"
                 },
-                caption: "I don't know how we did it, but sprigatitos love this stuff growing on the ground of the caves."
+                caption: "I don't know how we did it, but goomies love this stuff growing on the ground of the caves."
             },
             cave2: {
                 name: "Underground hot springs",
@@ -11182,7 +11182,7 @@
                     text: "Geothermal caves become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "A flash flood makes water enter the cave, which erodes more rock, which creates more caverns for the water table to seep into, which produces more sprigatitos."
+                caption: "A flash flood makes water enter the cave, which erodes more rock, which creates more caverns for the water table to seep into, which produces more goomies."
             },
             cave4: {
                 name: "Mining expeditions",
@@ -11198,7 +11198,7 @@
                     text: "Geothermal caves become {value} as efficient.",
                     value: "twice"
                 },
-                caption: 'So we found a place where you can just "farm" Level 1 sprigatitos eternally because they keep cropping up in the cave like Zubats every two steps you take.'
+                caption: 'So we found a place where you can just "farm" Level 1 goomies eternally because they keep cropping up in the cave like Zubats every two steps you take.'
             },
             cave_youngster: {
                 name: "Spelunkers",
@@ -11222,7 +11222,7 @@
                     text: "Oceanic trenches become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "It turns out that this big petroleum company is interested in investing with us. And one of the layers in the oil distillation process is perfect for creating sprigatitos!"
+                caption: "It turns out that this big petroleum company is interested in investing with us. And one of the layers in the oil distillation process is perfect for creating goomies!"
             },
             trench3: {
                 name: "Offshore Drilling",
@@ -11238,7 +11238,7 @@
                     text: "Oceanic trenches become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "It turns out if we create our own fissures, it's just as good for creating sprigatitos as natural formations. Maybe terrible for the ecosystem, though."
+                caption: "It turns out if we create our own fissures, it's just as good for creating goomies as natural formations. Maybe terrible for the ecosystem, though."
             },
             trench5: {
                 name: "Company Buyout",
@@ -11246,7 +11246,7 @@
                     text: "Oceanic trenches become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "So it turns out the that petroleum company mostly wanted the oil, but they're happy to let us keep producing sprigatitos if it means more oil for them."
+                caption: "So it turns out the that petroleum company mostly wanted the oil, but they're happy to let us keep producing goomies if it means more oil for them."
             },
             trench_youngster: {
                 name: "Rig Operators",
@@ -11254,7 +11254,7 @@
                     text: "Oceanic trenches and youngsters both become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "When I signed up to operate a trench, I thought I was going to be exploring the sea floor, looking for good places to plant underwater sprigatitos. But who cares, I'm raking it in on this rig!"
+                caption: "When I signed up to operate a trench, I thought I was going to be exploring the sea floor, looking for good places to plant underwater goomies. But who cares, I'm raking it in on this rig!"
             },
             arceus1: {
                 name: "Dragon Plate",
@@ -11262,7 +11262,7 @@
                     text: "Enslaved Arceus gain {value} base GpS.",
                     value: "400,000"
                 },
-                caption: "A Dragon-type Arceus produces Dragon-type sprigatitos more easily."
+                caption: "A Dragon-type Arceus produces Dragon-type goomies more easily."
             },
             arceus2: {
                 name: "EV Training",
@@ -11278,7 +11278,7 @@
                     text: "Enslaved Arceus become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "It created the universe with a thousand arms, and now we're making it create sprigatitos."
+                caption: "It created the universe with a thousand arms, and now we're making it create goomies."
             },
             arceus4: {
                 name: "Giratina",
@@ -11302,7 +11302,7 @@
                     text: "Oceanic trenches and youngsters both become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "They're not fit for this job, they said. It's irresponsible to put such power in the hands of little children, they said. Well I don't care! *whip* MAKE THOSE sprigatitos!"
+                caption: "They're not fit for this job, they said. It's irresponsible to put such power in the hands of little children, they said. Well I don't care! *whip* MAKE THOSE goomies!"
             },
             cloning_lab1: {
                 name: "Government Grant",
@@ -11478,7 +11478,7 @@
                     text: "Photon colliders become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "If we make the photons collide twice as fast, they'll produce twice the sprigatitos."
+                caption: "If we make the photons collide twice as fast, they'll produce twice the goomies."
             },
             photon_collider3: {
                 name: "Warp Drive 2",
@@ -11497,12 +11497,12 @@
                 caption: "If we collide photons through electrically charged black holes, the Goomy-producing portion gets filtered out and we can isolate that to produce more of them!"
             },
             photon_collider5: {
-                name: "Quantum sprigatitos",
+                name: "Quantum goomies",
                 description: {
                     text: "Photon colliders become {value} as efficient.",
                     value: "twice"
                 },
-                caption: "The photons we're using now are in superstate of producing sprigatitos and not producing sprigatitos. Collapsing them into a state of always producing sprigatitos makes them more useful."
+                caption: "The photons we're using now are in superstate of producing goomies and not producing goomies. Collapsing them into a state of always producing goomies makes them more useful."
             },
             photon_collider_youngster: {
                 name: "Defense Lobbyists",
@@ -11514,11 +11514,11 @@
             }
         },
         comparison_type: {
-            length: "Your swath of sprigatitos, laid out end to end, would {item}.",
-            area: "Your swath of sprigatitos, huddled against each other, would {item}.",
-            volume: "Your swath of sprigatitos, packed tightly, would {item}.",
-            weight: "Your swath of sprigatitos weighs as much as {item}.",
-            none: "Your swath of sprigatitos literally goes off the charts of what we can measure."
+            length: "Your swath of goomies, laid out end to end, would {item}.",
+            area: "Your swath of goomies, huddled against each other, would {item}.",
+            volume: "Your swath of goomies, packed tightly, would {item}.",
+            weight: "Your swath of goomies weighs as much as {item}.",
+            none: "Your swath of goomies literally goes off the charts of what we can measure."
         },
         scale_comparison: {
             parking_space_length: {
@@ -11699,8 +11699,8 @@
             }
         },
         error: {
-            not_enough_sprigatitos: "Not enough sprigatitos!",
-            need_more_sprigatitos: "Still need {shortfall}<div class='goomy-icon' style='width: 20px; height: 20px'></div>!",
+            not_enough_goomies: "Not enough goomies!",
+            need_more_goomies: "Still need {shortfall}<div class='goomy-icon' style='width: 20px; height: 20px'></div>!",
             nothing_to_sell: "Nothing to sell!"
         }
     }
@@ -21695,7 +21695,7 @@
                     var e = Math.ceil(n.game_state.youngsterpocalypse.time_to_destruction / 1e3);
                     document.title = "[" + Object(g.f)("" + Math.floor(e / 60)) + "|" + Object(g.e)("" + Math.floor(e) % 60) + "] - Goomy Clicker"
                 } else
-                    document.title = n.game_state.goomy_count.sprigatitos.toFormat(0, m.a.ROUND_DOWN) + " - Sprigatito Clicker"
+                    document.title = n.game_state.goomy_count.goomies.toFormat(0, m.a.ROUND_DOWN) + " - Sprigatito Clicker"
             }
             ,
             n.update = function() {
@@ -21923,8 +21923,8 @@
                 u.over = !1,
                 u.start_time = void 0,
                 u.reset_count += 1,
-                u.goomy_count.sprigatitos = new a.a("0"),
-                u.goomy_count.total_sprigatitos = new a.a("0"),
+                u.goomy_count.goomies = new a.a("0"),
+                u.goomy_count.total_goomies = new a.a("0"),
                 u.generators = Object(p.a)(u.reset_level),
                 u.generators.cursor.unlocked = !0,
                 u.generators.cursor.unlocked_at_start = !0,
@@ -21954,9 +21954,9 @@
         }
         return e.createNew = function() {
             var t = new u.a({
-                sprigatitos: "0",
-                total_sprigatitos: "0",
-                total_total_sprigatitos: "0",
+                goomies: "0",
+                total_goomies: "0",
+                total_total_goomies: "0",
                 gps: "0",
                 gpc: "1"
             })
@@ -22093,7 +22093,7 @@
                 r.cost.dividedBy(r.gps).isLessThan(t) && (t = r.cost.dividedBy(r.gps),
                 e = r)
             }),
-            null != e && e.cost.isLessThan(this.goomy_count.sprigatitos) && e.buy(1, this.goomy_count)
+            null != e && e.cost.isLessThan(this.goomy_count.goomies) && e.buy(1, this.goomy_count)
         }
         ,
         e.prototype.autoLevel = function() {
@@ -22101,7 +22101,7 @@
               , t = null
               , n = new a.a("Infinity");
             Object(s.a)(this.generators, function(r, o) {
-                o.upgrade_cost.isLessThan(e.goomy_count.sprigatitos) && o.upgrade_cost.isLessThan(e.goomy_count.gps.times(n)) && (n = o.upgrade_cost.dividedBy(e.goomy_count.gps),
+                o.upgrade_cost.isLessThan(e.goomy_count.goomies) && o.upgrade_cost.isLessThan(e.goomy_count.gps.times(n)) && (n = o.upgrade_cost.dividedBy(e.goomy_count.gps),
                 t = o)
             }),
             null != t && t.upgrade(this.goomy_count)
@@ -22176,7 +22176,7 @@
                     })
                 })
             }, 0),
-            this.heavenly_sliggoo.addExp(this.goomy_count.total_sprigatitos.dividedBy("1e15").toString()),
+            this.heavenly_sliggoo.addExp(this.goomy_count.total_goomies.dividedBy("1e15").toString()),
             this.divine_goodra.addExp(this.generators.cursor.count))
         }
         ,
@@ -25805,11 +25805,11 @@
                 t.earn(t.gpc)
             }
             ,
-            this.sprigatitos = new o.a(e.sprigatitos),
+            this.goomies = new o.a(e.goomies),
             this.gps = new o.a(e.gps),
             this.gpc = new o.a(e.gpc),
-            this.total_sprigatitos = new o.a(e.total_sprigatitos),
-            this.total_total_sprigatitos = new o.a(e.total_total_sprigatitos)
+            this.total_goomies = new o.a(e.total_goomies),
+            this.total_total_goomies = new o.a(e.total_total_goomies)
         }
         return e.prototype.setGPS = function(e, t) {
             this.update(t),
@@ -25824,21 +25824,21 @@
             e instanceof o.a || (e = new o.a(e)),
             e.isGreaterThan(0) && this.start_callback(),
             this.add(e),
-            this.total_sprigatitos = this.total_sprigatitos.plus(e),
-            this.total_total_sprigatitos = this.total_total_sprigatitos.plus(e)
+            this.total_goomies = this.total_goomies.plus(e),
+            this.total_total_goomies = this.total_total_goomies.plus(e)
         }
         ,
         e.prototype.add = function(e) {
-            this.sprigatitos = this.sprigatitos.plus(e)
+            this.goomies = this.goomies.plus(e)
         }
         ,
         e.prototype.spend = function(e) {
-            this.sprigatitos = this.sprigatitos.minus(e)
+            this.goomies = this.goomies.minus(e)
         }
         ,
         Object.defineProperty(e.prototype, "raw_goomy_string", {
             get: function() {
-                return this.sprigatitos.toFixed(0, o.a.ROUND_DOWN).toString()
+                return this.goomies.toFixed(0, o.a.ROUND_DOWN).toString()
             },
             enumerable: !1,
             configurable: !0
@@ -25851,28 +25851,28 @@
             configurable: !0
         }),
         e.prototype.timeToCost = function(e) {
-            return e.isLessThanOrEqualTo(this.sprigatitos) ? new o.a(0) : e.minus(this.sprigatitos).dividedBy(this.gps)
+            return e.isLessThanOrEqualTo(this.goomies) ? new o.a(0) : e.minus(this.goomies).dividedBy(this.gps)
         }
         ,
         e.prototype.serialize = function() {
             var e = this
-              , t = e.sprigatitos
+              , t = e.goomies
               , n = e.gps
               , r = e.gpc
-              , o = e.total_sprigatitos
-              , i = e.total_total_sprigatitos;
+              , o = e.total_goomies
+              , i = e.total_total_goomies;
             return {
-                sprigatitos: t.toString(),
+                goomies: t.toString(),
                 gps: n.toString(),
                 gpc: r.toString(),
-                total_sprigatitos: o.toString(),
-                total_total_sprigatitos: i.toString()
+                total_goomies: o.toString(),
+                total_total_goomies: i.toString()
             }
         }
         ,
-        i([r.l], e.prototype, "sprigatitos", void 0),
-        i([r.l], e.prototype, "total_sprigatitos", void 0),
-        i([r.l], e.prototype, "total_total_sprigatitos", void 0),
+        i([r.l], e.prototype, "goomies", void 0),
+        i([r.l], e.prototype, "total_goomies", void 0),
+        i([r.l], e.prototype, "total_total_goomies", void 0),
         i([r.l], e.prototype, "gps", void 0),
         i([r.l], e.prototype, "gpc", void 0),
         i([r.d], e.prototype, "update", void 0),
@@ -26232,7 +26232,7 @@
                 text: a.createElement("p", null, "But the truth is, we're mad about one thing: You just don't pay us enough.")
             }, {
                 image_url: "img/yp01.png",
-                text: a.createElement("p", null, "Starting now, the sprigatitos we've amassed for you are charging up the biggest Draco Meteor of all time. It will reach your location in exactly 704 minutes.")
+                text: a.createElement("p", null, "Starting now, the goomies we've amassed for you are charging up the biggest Draco Meteor of all time. It will reach your location in exactly 704 minutes.")
             }, {
                 image_url: "img/yp01.png",
                 text: a.createElement("p", null, "If you let us keep half of what we catch, we won't bother you for a while again.")
@@ -26542,7 +26542,7 @@
             },
             unlock_level: 1
         },
-        cryptosprigatitos_server_farm: {
+        cryptogoomies_server_farm: {
             base_cost: "1e18",
             base_upgrade_cost: "1e20",
             base_gps_fn: function() {
@@ -26670,15 +26670,15 @@
             void 0 === e && (e = 1);
             for (var n = new o.a(0), r = 0; r < e; ++r)
                 n = n.plus(new o.a(this.costForNumber(this.count + r)));
-            if (n.isGreaterThan(t.sprigatitos))
-                throw new i.b(n.minus(t.sprigatitos));
+            if (n.isGreaterThan(t.goomies))
+                throw new i.b(n.minus(t.goomies));
             t.spend(n),
             this.count += e,
             this.recalc_callback()
         }
         ,
         e.prototype.buyMax = function(e) {
-            for (; this.cost.isLessThan(e.sprigatitos); )
+            for (; this.cost.isLessThan(e.goomies); )
                 e.spend(this.cost),
                 this.count += 1;
             this.recalc_callback()
@@ -26702,15 +26702,15 @@
         }
         ,
         e.prototype.upgrade = function(e) {
-            if (this.upgrade_cost.isGreaterThan(e.sprigatitos))
-                throw new i.b(this.upgrade_cost.minus(e.sprigatitos));
+            if (this.upgrade_cost.isGreaterThan(e.goomies))
+                throw new i.b(this.upgrade_cost.minus(e.goomies));
             e.spend(this.upgrade_cost),
             this.level += 1,
             this.recalc_callback()
         }
         ,
         e.prototype.unlock = function(e) {
-            e.goomy_count.total_sprigatitos.isGreaterThan(this.base_cost) && (this.unlocked = !0)
+            e.goomy_count.total_goomies.isGreaterThan(this.base_cost) && (this.unlocked = !0)
         }
         ,
         e.prototype.serialize = function() {
@@ -27373,8 +27373,8 @@
         }
         ,
         e.prototype.buy = function(e) {
-            if (this.cost.isGreaterThan(e.goomy_count.sprigatitos))
-                throw new i.b(this.cost.minus(e.goomy_count.sprigatitos));
+            if (this.cost.isGreaterThan(e.goomy_count.goomies))
+                throw new i.b(this.cost.minus(e.goomy_count.goomies));
             if (this.bought)
                 throw new i.a;
             e.goomy_count.spend(this.cost),
@@ -27438,13 +27438,13 @@
         text: "There you go, now we're talking to you directly!"
     }, {
         image_url: "img/meadow01.jpg",
-        text: "For all your service to the Great Goomy, we'd like to offer you a second chance. We want to reincarnate you to produce more sprigatitos for the Great Goomy's glory."
+        text: "For all your service to the Great Goomy, we'd like to offer you a second chance. We want to reincarnate you to produce more goomies for the Great Goomy's glory."
     }, {
         image_url: "img/meadow01.jpg",
         text: "And not only that, we'll help you along the way!"
     }, {
         image_url: "img/meadow01.jpg",
-        text: "All the sprigatitos you clicked give me the power to increase production!"
+        text: "All the goomies you clicked give me the power to increase production!"
     }, {
         image_url: "img/meadow01.jpg",
         text: "And all the cursors you bought give me the power to increase the Great Goomy's maximum power level. Watch!"
@@ -27580,23 +27580,23 @@
         return c(t, e),
         t.prototype.getFormattedGoomyCount = function() {
             var e = this.props.game_state.goomy_count;
-            return e.sprigatitos.integerValue(i.a.ROUND_DOWN).isEqualTo(1) ? o.createElement(l.a, {
+            return e.goomies.integerValue(i.a.ROUND_DOWN).isEqualTo(1) ? o.createElement(l.a, {
                 id: "goomy_count_one",
-                defaultMessage: "{sprigatitos} Goomy",
+                defaultMessage: "{goomies} Goomy",
                 values: {
-                    sprigatitos: e.sprigatitos.toFormat(0, i.a.ROUND_DOWN)
+                    goomies: e.goomies.toFormat(0, i.a.ROUND_DOWN)
                 }
-            }) : e.sprigatitos.isGreaterThanOrEqualTo(2) && e.sprigatitos.isLessThan(5) ? o.createElement(l.a, {
+            }) : e.goomies.isGreaterThanOrEqualTo(2) && e.goomies.isLessThan(5) ? o.createElement(l.a, {
                 id: "goomy_count_few",
-                defaultMessage: "{sprigatitos} sprigatitos",
+                defaultMessage: "{goomies} goomies",
                 values: {
-                    sprigatitos: e.sprigatitos.toFormat(0, i.a.ROUND_DOWN)
+                    goomies: e.goomies.toFormat(0, i.a.ROUND_DOWN)
                 }
             }) : o.createElement(l.a, {
                 id: "goomy_count_other",
-                defaultMessage: "{sprigatitos} sprigatitos",
+                defaultMessage: "{goomies} goomies",
                 values: {
-                    sprigatitos: e.sprigatitos.toFormat(0, i.a.ROUND_DOWN)
+                    goomies: e.goomies.toFormat(0, i.a.ROUND_DOWN)
                 }
             })
         }
@@ -27605,21 +27605,21 @@
             var e = this.props.game_state.goomy_count;
             return e.gps.isEqualTo(1) ? o.createElement(l.a, {
                 id: "gps_count_one",
-                defaultMessage: "{sprigatitos} Goomy per second",
+                defaultMessage: "{goomies} Goomy per second",
                 values: {
-                    sprigatitos: e.gps.toFormat(1, i.a.ROUND_DOWN)
+                    goomies: e.gps.toFormat(1, i.a.ROUND_DOWN)
                 }
             }) : e.gps.isGreaterThanOrEqualTo(2) && e.gps.isLessThan(5) ? o.createElement(l.a, {
                 id: "gps_count_few",
-                defaultMessage: "{sprigatitos} sprigatitos per second",
+                defaultMessage: "{goomies} goomies per second",
                 values: {
-                    sprigatitos: e.gps.toFormat(1, i.a.ROUND_DOWN)
+                    goomies: e.gps.toFormat(1, i.a.ROUND_DOWN)
                 }
             }) : o.createElement(l.a, {
                 id: "gps_count_other",
-                defaultMessage: "{sprigatitos} sprigatitos per second",
+                defaultMessage: "{goomies} goomies per second",
                 values: {
-                    sprigatitos: e.gps.toFormat(1, i.a.ROUND_DOWN)
+                    goomies: e.gps.toFormat(1, i.a.ROUND_DOWN)
                 }
             })
         }
@@ -27743,7 +27743,7 @@
                     e.buy(1, t.props.game_state.goomy_count)
                 } catch (e) {
                     e instanceof h.b && Object(p.a)(n.clientX, n.clientY, t.context.intl.formatMessage({
-                        id: "error_need_more_sprigatitos"
+                        id: "error_need_more_goomies"
                     }, {
                         shortfall: Object(m.a)(e.shortfall)
                     }), function(e) {
@@ -27762,7 +27762,7 @@
                 key: "tooltip",
                 id: this.tooltip_state.generator_id,
                 generator: this.props.game_state.generators[this.tooltip_state.generator_id],
-                sprigatitos: this.props.game_state.goomy_count,
+                goomies: this.props.game_state.goomy_count,
                 onClick: this.tooltip_state.changeTooltipState(null),
                 onMouseEnter: this.tooltip_state.cancelTooltipChange,
                 onMouseLeave: this.tooltip_state.changeTooltipState(null)
@@ -27778,7 +27778,7 @@
                         id: t,
                         new: !n.unlocked_at_start,
                         generator: n,
-                        sprigatitos: e.props.game_state.goomy_count,
+                        goomies: e.props.game_state.goomy_count,
                         onMouseEnter: e.tooltip_state.changeTooltipState(t),
                         onMouseLeave: e.tooltip_state.changeTooltipState(null),
                         onClick: e.buyGenerator(n)
@@ -28298,10 +28298,10 @@
                 return function(n) {
                     n.stopPropagation();
                     try {
-                        t.props.generator.buy(e, t.props.sprigatitos)
+                        t.props.generator.buy(e, t.props.goomies)
                     } catch (e) {
                         e instanceof p.b && Object(u.a)(n.clientX, n.clientY, t.context.intl.formatMessage({
-                            id: "error_need_more_sprigatitos"
+                            id: "error_need_more_goomies"
                         }, {
                             shortfall: Object(s.b)(e.shortfall)
                         }), function(e) {
@@ -28313,14 +28313,14 @@
             ,
             t.buyMax = function(e) {
                 e.stopPropagation(),
-                t.props.generator.buyMax(t.props.sprigatitos)
+                t.props.generator.buyMax(t.props.goomies)
             }
             ,
             t.sell = function(e) {
                 return function(n) {
                     n.stopPropagation();
                     try {
-                        t.props.generator.sell(e, t.props.sprigatitos)
+                        t.props.generator.sell(e, t.props.goomies)
                     } catch (e) {
                         Object(u.a)(n.clientX, n.clientY, t.context.intl.formatMessage({
                             id: "error_nothing_to_sell",
@@ -28334,16 +28334,16 @@
             ,
             t.sellAll = function(e) {
                 e.stopPropagation(),
-                t.props.generator.sellAll(t.props.sprigatitos)
+                t.props.generator.sellAll(t.props.goomies)
             }
             ,
             t.upgrade = function(e) {
                 e.stopPropagation();
                 try {
-                    t.props.generator.upgrade(t.props.sprigatitos)
+                    t.props.generator.upgrade(t.props.goomies)
                 } catch (n) {
                     n instanceof p.b && Object(u.a)(e.clientX, e.clientY, t.context.intl.formatMessage({
-                        id: "error_need_more_sprigatitos"
+                        id: "error_need_more_goomies"
                     }, {
                         shortfall: Object(s.b)(n.shortfall)
                     }), function(e) {
@@ -28353,7 +28353,7 @@
             }
             ,
             t.getTimeToNext = function() {
-                var e = t.props.sprigatitos.timeToCost(t.props.generator.cost).integerValue(a.a.ROUND_CEIL);
+                var e = t.props.goomies.timeToCost(t.props.generator.cost).integerValue(a.a.ROUND_CEIL);
                 return Object(s.d)(e)
             }
             ,
@@ -28383,7 +28383,7 @@
                 }
             })), o.createElement("p", null, o.createElement(c.a, {
                 id: "tooltip_cost",
-                defaultMessage: "Cost: {cost} sprigatitos",
+                defaultMessage: "Cost: {cost} goomies",
                 values: {
                     cost: o.createElement("b", null, this.props.generator.cost.toFormat(0, a.a.ROUND_DOWN), o.createElement(d.a, {
                         size: 12
@@ -28570,7 +28570,7 @@
                 classNames: "game-over-screen"
             }, o.createElement("div", {
                 className: "game-over"
-            }, o.createElement("p", null, "Game over! You died."), o.createElement("p", null, "Total sprigatitos: ", this.props.game_state.goomy_count.total_sprigatitos.toFormat(0, s.a.ROUND_DOWN)))) : null)
+            }, o.createElement("p", null, "Game over! You died."), o.createElement("p", null, "Total goomies: ", this.props.game_state.goomy_count.total_goomies.toFormat(0, s.a.ROUND_DOWN)))) : null)
         }
         ,
         t = c([i.a], t)
@@ -28629,9 +28629,9 @@
             this.update = function(t) {
                 var n = t.great_goomy
                   , r = t.goomy_count;
-                e.sprigatitos = Object(p.a)(r.sprigatitos.integerValue(s.a.ROUND_DOWN)),
-                e.total_sprigatitos = Object(p.a)(r.total_sprigatitos.integerValue(s.a.ROUND_DOWN)),
-                e.total_total_sprigatitos = Object(p.a)(r.total_total_sprigatitos.integerValue(s.a.ROUND_DOWN)),
+                e.goomies = Object(p.a)(r.goomies.integerValue(s.a.ROUND_DOWN)),
+                e.total_goomies = Object(p.a)(r.total_goomies.integerValue(s.a.ROUND_DOWN)),
+                e.total_total_goomies = Object(p.a)(r.total_total_goomies.integerValue(s.a.ROUND_DOWN)),
                 e.goomy_exp = new s.a(n.exp_points).toFormat(0, s.a.ROUND_DOWN),
                 e.level_cap_reached = n.level == n.level_cap,
                 e.next_level = (n.level + 1).toString(),
@@ -28639,9 +28639,9 @@
             }
         }
         return h([i.l], e.prototype, "elapsed_time", void 0),
-        h([i.l], e.prototype, "sprigatitos", void 0),
-        h([i.l], e.prototype, "total_sprigatitos", void 0),
-        h([i.l], e.prototype, "total_total_sprigatitos", void 0),
+        h([i.l], e.prototype, "goomies", void 0),
+        h([i.l], e.prototype, "total_goomies", void 0),
+        h([i.l], e.prototype, "total_total_goomies", void 0),
         h([i.l], e.prototype, "goomy_exp", void 0),
         h([i.l], e.prototype, "level_cap_reached", void 0),
         h([i.l], e.prototype, "next_level", void 0),
@@ -28699,18 +28699,18 @@
             }), o.createElement("tr", null, o.createElement("td", {
                 className: "key"
             }, o.createElement(f.a, {
-                id: "stats_sprigatitos",
-                defaultMessage: "sprigatitos"
+                id: "stats_goomies",
+                defaultMessage: "goomies"
             })), o.createElement("td", {
                 className: "value"
-            }, this.stats.sprigatitos)), o.createElement("tr", null, o.createElement("td", {
+            }, this.stats.goomies)), o.createElement("tr", null, o.createElement("td", {
                 className: "key"
             }, o.createElement(f.a, {
-                id: "stats_total_sprigatitos",
-                defaultMessage: "Total sprigatitos"
+                id: "stats_total_goomies",
+                defaultMessage: "Total goomies"
             })), o.createElement("td", {
                 className: "value"
-            }, this.stats.total_sprigatitos)), o.createElement("tr", {
+            }, this.stats.total_goomies)), o.createElement("tr", {
                 className: "spacer"
             }), o.createElement("tr", null, o.createElement("td", {
                 className: "key"
@@ -28730,7 +28730,7 @@
             })), o.createElement("td", {
                 className: "value"
             }, this.stats.to_next_level)))), o.createElement(u.a, {
-                goomy_count: this.props.game_state.goomy_count.sprigatitos
+                goomy_count: this.props.game_state.goomy_count.goomies
             })))
         }
         ,
@@ -28891,11 +28891,11 @@
         other: ""
     }
       , u = {
-        length: "Your swath of sprigatitos, laid out end to end, would {item}.",
-        area: "Your swath of sprigatitos, huddled against each other, would {item}.",
-        volume: "Your swath of sprigatitos, packed tightly, would {item}.",
-        weight: "Your swath of sprigatitos weighs as much as {item}.",
-        none: "Your swath of sprigatitos literally goes off the charts of what we can measure."
+        length: "Your swath of goomies, laid out end to end, would {item}.",
+        area: "Your swath of goomies, huddled against each other, would {item}.",
+        volume: "Your swath of goomies, packed tightly, would {item}.",
+        weight: "Your swath of goomies weighs as much as {item}.",
+        none: "Your swath of goomies literally goes off the charts of what we can measure."
     }
       , c = s(o.a, i.a, a.a)
       , f = function(e) {
@@ -29327,7 +29327,7 @@
                     e.buy(t.props.game_state)
                 } catch (e) {
                     e instanceof d.b && Object(p.a)(n.clientX, n.clientY, t.context.intl.formatMessage({
-                        id: "error_need_more_sprigatitos"
+                        id: "error_need_more_goomies"
                     }, {
                         shortfall: Object(h.b)(e.shortfall)
                     }), function(e) {
@@ -29358,7 +29358,7 @@
                     }, o.createElement(u.a, {
                         id: t,
                         upgrade: n,
-                        sprigatitos: e.props.game_state.goomy_count,
+                        goomies: e.props.game_state.goomy_count,
                         onMouseEnter: e.tooltip_state.changeTooltipState(t),
                         onMouseLeave: e.tooltip_state.changeTooltipState(null),
                         onClick: e.buyUpgrade(n)
@@ -29461,15 +29461,15 @@
         gcm1: {
             name: "Genuine Parts Company",
             description: {
-                text: "The mouse and cursors gain {value} sprigatitos per generator per level above 5.",
+                text: "The mouse and cursors gain {value} goomies per generator per level above 5.",
                 value: "0.5"
             },
-            caption: "I know we produce automotive parts as our company function, but sprigatitos help with lubricant."
+            caption: "I know we produce automotive parts as our company function, but goomies help with lubricant."
         },
         gcm2: {
             name: "Georgia Perimeter College",
             description: {
-                text: "The mouse and cursors gain {value} sprigatitos per generator per level above 10.",
+                text: "The mouse and cursors gain {value} goomies per generator per level above 10.",
                 value: "2"
             },
             caption: "We've allocated 10% of our college's tuition revenue to Goomy research."
@@ -29477,26 +29477,26 @@
         gcm3: {
             name: "Green Party of Canada",
             description: {
-                text: "The mouse and cursors gain {value} sprigatitos per generator per level above 20.",
+                text: "The mouse and cursors gain {value} goomies per generator per level above 20.",
                 value: "10"
             },
-            caption: "Hi, I'm Elizabeth May and I promise to offer free, environmentally certified sprigatitos to anyone who needs them."
+            caption: "Hi, I'm Elizabeth May and I promise to offer free, environmentally certified goomies to anyone who needs them."
         },
         gcm4: {
             name: "Gigaparsec",
             description: {
-                text: "The mouse and cursors gain {value} sprigatitos per generator per level above 40.",
+                text: "The mouse and cursors gain {value} goomies per generator per level above 40.",
                 value: "100"
             },
-            caption: "I heard that your swath of sprigatitos laid end to end is up to a gigaparsec now. No? Sure seems like it from here."
+            caption: "I heard that your swath of goomies laid end to end is up to a gigaparsec now. No? Sure seems like it from here."
         },
         gcm5: {
             name: "Giant Papillary Conjunctivitis",
             description: {
-                text: "The mouse and cursors gain {value} sprigatitos per generator per level above 80.",
+                text: "The mouse and cursors gain {value} goomies per generator per level above 80.",
                 value: "1000"
             },
-            caption: "With this many sprigatitos being produced, I'm surprised your eyes aren't already allergic."
+            caption: "With this many goomies being produced, I'm surprised your eyes aren't already allergic."
         },
         youngster_great: {
             name: "Great Ball",
@@ -29528,7 +29528,7 @@
                 text: "Youngsters become {value} as efficient.",
                 value: "twice"
             },
-            caption: "These shorts are easy to wear and make catching sprigatitos easier too!"
+            caption: "These shorts are easy to wear and make catching goomies easier too!"
         },
         youngster2: {
             name: "Sweet Scent",
@@ -29536,7 +29536,7 @@
                 text: "Youngsters become {value} as efficient.",
                 value: "twice"
             },
-            caption: "With Sweet Scent, I can attract more sprigatitos to my present location."
+            caption: "With Sweet Scent, I can attract more goomies to my present location."
         },
         youngster3: {
             name: "Honey Tree",
@@ -29544,7 +29544,7 @@
                 text: "Youngsters become {value} as efficient.",
                 value: "twice"
             },
-            caption: "If I slather honey on this tree, sprigatitos will be attracted to it"
+            caption: "If I slather honey on this tree, goomies will be attracted to it"
         },
         youngster4: {
             name: "Ace Trainer",
@@ -29552,7 +29552,7 @@
                 text: "Youngsters become {value} as efficient.",
                 value: "twice"
             },
-            caption: "I have my own team of Pok\xe9mon! What am I still doing catching sprigatitos?"
+            caption: "I have my own team of Pok\xe9mon! What am I still doing catching goomies?"
         },
         youngster5: {
             name: "Team Rocket",
@@ -29560,7 +29560,7 @@
                 text: "Youngsters become {value} as efficient.",
                 value: "twice"
             },
-            caption: "Steal sprigatitos for profit. Exploit sprigatitos for profit. All sprigatitos exist for the sake of Team Rocket."
+            caption: "Steal goomies for profit. Exploit goomies for profit. All goomies exist for the sake of Team Rocket."
         },
         youngster6: {
             name: "Gym Leader",
@@ -29568,7 +29568,7 @@
                 text: "Youngsters become {value} as efficient.",
                 value: "twice"
             },
-            caption: "I love sprigatitos so much, my whole team is made of sprigatitos!"
+            caption: "I love goomies so much, my whole team is made of goomies!"
         },
         youngster7: {
             name: "Elite Four",
@@ -29576,7 +29576,7 @@
                 text: "Youngsters become {value} as efficient.",
                 value: "twice"
             },
-            caption: "Goomy is love, Goomy is life. Can you withstand the power of my sprigatitos?"
+            caption: "Goomy is love, Goomy is life. Can you withstand the power of my goomies?"
         },
         youngster8: {
             name: "Champion",
@@ -29600,7 +29600,7 @@
                 text: "Youngsters become {value} as efficient.",
                 value: "twice"
             },
-            caption: "All your sprigatitos are belong to me! ALL! HAHA! MINE!"
+            caption: "All your goomies are belong to me! ALL! HAHA! MINE!"
         },
         youngster11: {
             name: "World Champion",
@@ -29672,7 +29672,7 @@
                 text: "Reserves gain {value} base GpS.",
                 value: "50"
             },
-            caption: "If we induce more active breeding in the sprigatitos, they'll reproduce a little faster."
+            caption: "If we induce more active breeding in the goomies, they'll reproduce a little faster."
         },
         reserve2: {
             name: "Pollution Removal",
@@ -29680,7 +29680,7 @@
                 text: "Reserves become {value} as efficient.",
                 value: "twice"
             },
-            caption: "These sprigatitos need the freshest air we can give them."
+            caption: "These goomies need the freshest air we can give them."
         },
         reserve3: {
             name: "National Park Status",
@@ -29688,7 +29688,7 @@
                 text: "Reserves become {value} as efficient.",
                 value: "twice"
             },
-            caption: "Now that our sprigatitos are no longer threatened by private interests, they're free to live without a care."
+            caption: "Now that our goomies are no longer threatened by private interests, they're free to live without a care."
         },
         reserve4: {
             name: "Expansion Program",
@@ -29696,7 +29696,7 @@
                 text: "Reserves become {value} as efficient.",
                 value: "twice"
             },
-            caption: "We've petitioned the government to expand the area of our national park. If they disagree, we'll send all the sprigatitos they aren't giving a home straight to the national capital in protest."
+            caption: "We've petitioned the government to expand the area of our national park. If they disagree, we'll send all the goomies they aren't giving a home straight to the national capital in protest."
         },
         reserve5: {
             name: "Reintroduction",
@@ -29744,7 +29744,7 @@
                 text: "Farms become {value} as efficient.",
                 value: "twice"
             },
-            caption: "Our genetically modified sprigatitos are virtually identical to organically grown ones."
+            caption: "Our genetically modified goomies are virtually identical to organically grown ones."
         },
         farm5: {
             name: "Hormonal Therapy",
@@ -29768,7 +29768,7 @@
                 text: "Goopy fountains gain {value} base GpS.",
                 value: "1500"
             },
-            caption: "sprigatitos that have fresh water in them are healthier in general. Or just plumper, I can't tell."
+            caption: "goomies that have fresh water in them are healthier in general. Or just plumper, I can't tell."
         },
         fountain2: {
             name: "Geyser",
@@ -29792,7 +29792,7 @@
                 text: "Goopy fountains become {value} as efficient.",
                 value: "twice"
             },
-            caption: "Our research shows that sprigatitos that stay youthful stay sexually active."
+            caption: "Our research shows that goomies that stay youthful stay sexually active."
         },
         fountain5: {
             name: "Volcanic Spring",
@@ -29800,7 +29800,7 @@
                 text: "Goopy fountains become {value} as efficient.",
                 value: "twice"
             },
-            caption: "Creating a warm, moist environment for sprigatitos to live in like those geothermal trenches is more conducive to successful production than anything else you can do."
+            caption: "Creating a warm, moist environment for goomies to live in like those geothermal trenches is more conducive to successful production than anything else you can do."
         },
         fountain_youngster: {
             name: "Janitors",
@@ -29816,7 +29816,7 @@
                 text: "Geothermal caves gain {value} base GpS.",
                 value: "10,000"
             },
-            caption: "I don't know how we did it, but sprigatitos love this stuff growing on the ground of the caves."
+            caption: "I don't know how we did it, but goomies love this stuff growing on the ground of the caves."
         },
         cave2: {
             name: "Underground hot springs",
@@ -29832,7 +29832,7 @@
                 text: "Geothermal caves become {value} as efficient.",
                 value: "twice"
             },
-            caption: "A flash flood makes water enter the cave, which erodes more rock, which creates more caverns for the water table to seep into, which produces more sprigatitos."
+            caption: "A flash flood makes water enter the cave, which erodes more rock, which creates more caverns for the water table to seep into, which produces more goomies."
         },
         cave4: {
             name: "Mining expeditions",
@@ -29848,7 +29848,7 @@
                 text: "Geothermal caves become {value} as efficient.",
                 value: "twice"
             },
-            caption: 'So we found a place where you can just "farm" Level 1 sprigatitos eternally because they keep cropping up in the cave like Zubats every two steps you take.'
+            caption: 'So we found a place where you can just "farm" Level 1 goomies eternally because they keep cropping up in the cave like Zubats every two steps you take.'
         },
         cave_youngster: {
             name: "Spelunkers",
@@ -29872,7 +29872,7 @@
                 text: "Oceanic trenches become {value} as efficient.",
                 value: "twice"
             },
-            caption: "It turns out that this big petroleum company is interested in investing with us. And one of the layers in the oil distillation process is perfect for creating sprigatitos!"
+            caption: "It turns out that this big petroleum company is interested in investing with us. And one of the layers in the oil distillation process is perfect for creating goomies!"
         },
         trench3: {
             name: "Offshore Drilling",
@@ -29888,7 +29888,7 @@
                 text: "Oceanic trenches become {value} as efficient.",
                 value: "twice"
             },
-            caption: "It turns out if we create our own fissures, it's just as good for creating sprigatitos as natural formations. Maybe terrible for the ecosystem, though."
+            caption: "It turns out if we create our own fissures, it's just as good for creating goomies as natural formations. Maybe terrible for the ecosystem, though."
         },
         trench5: {
             name: "Company Buyout",
@@ -29896,7 +29896,7 @@
                 text: "Oceanic trenches become {value} as efficient.",
                 value: "twice"
             },
-            caption: "So it turns out the that petroleum company mostly wanted the oil, but they're happy to let us keep producing sprigatitos if it means more oil for them."
+            caption: "So it turns out the that petroleum company mostly wanted the oil, but they're happy to let us keep producing goomies if it means more oil for them."
         },
         trench_youngster: {
             name: "Rig Operators",
@@ -29904,7 +29904,7 @@
                 text: "Oceanic trenches and youngsters both become {value} as efficient.",
                 value: "twice"
             },
-            caption: "When I signed up to operate a trench, I thought I was going to be exploring the sea floor, looking for good places to plant underwater sprigatitos. But who cares, I'm raking it in on this rig!"
+            caption: "When I signed up to operate a trench, I thought I was going to be exploring the sea floor, looking for good places to plant underwater goomies. But who cares, I'm raking it in on this rig!"
         },
         arceus1: {
             name: "Dragon Plate",
@@ -29912,7 +29912,7 @@
                 text: "Enslaved Arceus gain {value} base GpS.",
                 value: "400,000"
             },
-            caption: "A Dragon-type Arceus produces Dragon-type sprigatitos more easily."
+            caption: "A Dragon-type Arceus produces Dragon-type goomies more easily."
         },
         arceus2: {
             name: "EV Training",
@@ -29928,7 +29928,7 @@
                 text: "Enslaved Arceus become {value} as efficient.",
                 value: "twice"
             },
-            caption: "It created the universe with a thousand arms, and now we're making it create sprigatitos."
+            caption: "It created the universe with a thousand arms, and now we're making it create goomies."
         },
         arceus4: {
             name: "Giratina",
@@ -29952,7 +29952,7 @@
                 text: "Oceanic trenches and youngsters both become {value} as efficient.",
                 value: "twice"
             },
-            caption: "They're not fit for this job, they said. It's irresponsible to put such power in the hands of little children, they said. Well I don't care! *whip* MAKE THOSE sprigatitos!"
+            caption: "They're not fit for this job, they said. It's irresponsible to put such power in the hands of little children, they said. Well I don't care! *whip* MAKE THOSE goomies!"
         },
         cloning_lab1: {
             name: "Government Grant",
@@ -30128,7 +30128,7 @@
                 text: "Photon colliders become {value} as efficient.",
                 value: "twice"
             },
-            caption: "If we make the photons collide twice as fast, they'll produce twice the sprigatitos."
+            caption: "If we make the photons collide twice as fast, they'll produce twice the goomies."
         },
         photon_collider3: {
             name: "Warp Drive 2",
@@ -30147,12 +30147,12 @@
             caption: "If we collide photons through electrically charged black holes, the Goomy-producing portion gets filtered out and we can isolate that to produce more of them!"
         },
         photon_collider5: {
-            name: "Quantum sprigatitos",
+            name: "Quantum goomies",
             description: {
                 text: "Photon colliders become {value} as efficient.",
                 value: "twice"
             },
-            caption: "The photons we're using now are in superstate of producing sprigatitos and not producing sprigatitos. Collapsing them into a state of always producing sprigatitos makes them more useful."
+            caption: "The photons we're using now are in superstate of producing goomies and not producing goomies. Collapsing them into a state of always producing goomies makes them more useful."
         },
         photon_collider_youngster: {
             name: "Defense Lobbyists",
@@ -33063,16 +33063,16 @@
     t.default = {
         title: "Goomy Clicker",
         goomy_count: {
-            one: "{sprigatitos} mucuscule",
-            few: "{sprigatitos} mucuscules",
-            other: "{sprigatitos} mucuscules"
+            one: "{goomies} mucuscule",
+            few: "{goomies} mucuscules",
+            other: "{goomies} mucuscules"
         },
         gps_count: "{ gps, plural, one {1 mucuscule par seconde} other {# mucuscules par seconde} }",
         stats: {
             display: "Stats",
             play_time: "Temps de jeu",
-            sprigatitos: "Mucuscules",
-            total_sprigatitos: "Total de mucuscules",
+            goomies: "Mucuscules",
+            total_goomies: "Total de mucuscules",
             exp: "Points d'exp\xe9rience",
             to_next_level: "Jusqu'au niveau {level}"
         },
@@ -33151,9 +33151,9 @@
                 name: "Simulateur d'\xc9cosyst\xe8me",
                 description: "Un appareil g\xe9ant permettant de simuler enti\xe8rement des \xe9cosyst\xe8mes, avec comme cons\xe9quence impromptue que les mucuscules form\xe9s \xe0 l'int\xe9rieur existent r\xe9ellement."
             },
-            cryptosprigatitos_server_farm: {
-                name: "Serveur ferme \xe0 Cryptosprigatitos",
-                description: "un serveur ferme d\xe9di\xe9 au minage de contrats ERC20 pour le jeu Cryptosprigatitos."
+            cryptogoomies_server_farm: {
+                name: "Serveur ferme \xe0 Cryptogoomies",
+                description: "un serveur ferme d\xe9di\xe9 au minage de contrats ERC20 pour le jeu Cryptogoomies."
             },
             goothulhu: {
                 name: "Mucthulhu",
@@ -33231,7 +33231,7 @@
             }
         },
         error: {
-            not_enough_sprigatitos: "Pas assez de mucuscules!",
+            not_enough_goomies: "Pas assez de mucuscules!",
             nothing_to_sell: "Rien \xe0 vendre!"
         }
     }
