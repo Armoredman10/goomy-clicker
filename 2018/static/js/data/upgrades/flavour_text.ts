@@ -724,7 +724,7 @@ export const upgrade_flavour_text: { [id: string]: UpgradeFlavourText } = {
 		},
 		caption: "You thought it was going to be more grad students, didn't you? Well this time around we're just lobbying for the US government to give us funding into... particle physics research.",
 	},
-	/*
+	
 	"goothulhu_youngster": {
 		name: "Suicide Cultists",
 		description: {
