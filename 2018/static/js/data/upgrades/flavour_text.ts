@@ -814,7 +814,6 @@ export const upgrade_flavour_text: { [id: string]: UpgradeFlavourText } = {
 		},
 		caption: "ALL THESE WORLDS ARE YOURS EXCEPT THE REPOPULATED PLANETS WE OWN. ATTEMPT NO LANDINGS THERE.",
 	},
-	*/
 };
 
 
