@@ -276,7 +276,7 @@ a:hover {
 
 .goomy-stats {
     border: 2px solid #18f268;
-    background-color: #0b7f36;
+    background-color: #0026ff;
     border-radius: 4px;
     padding: 8px 16px;
     display: -ms-flexbox;
@@ -320,7 +320,7 @@ a:hover {
     right: 0;
     width: 300px;
     z-index: 2;
-    background-color: #000;
+    background-color: #ff0000;
     -webkit-transition: all .3s cubic-bezier(.3,0,.7,1);
     -o-transition: all .3s cubic-bezier(.3,0,.7,1);
     transition: all .3s cubic-bezier(.3,0,.7,1);
@@ -349,7 +349,7 @@ a:hover {
     flex-direction: column;
     -ms-flex-align: stretch;
     align-items: stretch;
-    background-color: #666;
+    background-color: #fffb00;
     -webkit-transition: all .3s cubic-bezier(.3,0,.7,1);
     -o-transition: all .3s cubic-bezier(.3,0,.7,1);
     transition: all .3s cubic-bezier(.3,0,.7,1);
@@ -382,7 +382,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-color: #aeff00;
     opacity: .3;
     -webkit-transition: all .1s linear;
     -o-transition: all .1s linear;
@@ -490,7 +490,7 @@ a:hover {
     bottom: 0;
     width: 300px;
     overflow: auto;
-    background-color: #333
+    background-color: #ff7300
 }
 
 .tooltip h1 {
@@ -782,7 +782,7 @@ a:hover {
     left: 0;
     width: 350px;
     z-index: 2;
-    background-color: #000;
+    background-color: #00eeff;
     -webkit-transition: all .3s cubic-bezier(.3,0,.7,1);
     -o-transition: all .3s cubic-bezier(.3,0,.7,1);
     transition: all .3s cubic-bezier(.3,0,.7,1);
@@ -863,7 +863,7 @@ a:hover {
     right: 0;
     width: 350px;
     z-index: 1;
-    background-color: #000;
+    background-color: #6600ff;
     -webkit-transition: all .3s cubic-bezier(.3,0,.7,1);
     -o-transition: all .3s cubic-bezier(.3,0,.7,1);
     transition: all .3s cubic-bezier(.3,0,.7,1);
@@ -913,7 +913,7 @@ a:hover {
     display: block;
     -ms-flex-align: stretch;
     align-items: stretch;
-    background-color: #666;
+    background-color: #e303fc;
     -webkit-transition: all .5s cubic-bezier(.3,0,.7,1);
     -o-transition: all .5s cubic-bezier(.3,0,.7,1);
     transition: all .5s cubic-bezier(.3,0,.7,1);
@@ -1237,7 +1237,7 @@ a:hover {
 body,html {
     margin: 0;
     padding: 0;
-    background-color: #120428;
+    background-color: #689F38;
     overflow: hidden
 }
 
