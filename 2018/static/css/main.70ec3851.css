@@ -1,4 +1,4 @@
-p {
+    p {
     margin: 0
 }
 
@@ -275,8 +275,8 @@ a:hover {
 }
 
 .goomy-stats {
-    border: 2px solid #18f268;
-    background-color: #0026ff;
+    border: 2px solid #10ad22;
+    background-color: #0f961f;
     border-radius: 4px;
     padding: 8px 16px;
     display: -ms-flexbox;
@@ -349,7 +349,7 @@ a:hover {
     flex-direction: column;
     -ms-flex-align: stretch;
     align-items: stretch;
-    background-color: #fffb00;
+    background-color: #0f961f;
     -webkit-transition: all .3s cubic-bezier(.3,0,.7,1);
     -o-transition: all .3s cubic-bezier(.3,0,.7,1);
     transition: all .3s cubic-bezier(.3,0,.7,1);
@@ -490,7 +490,7 @@ a:hover {
     bottom: 0;
     width: 300px;
     overflow: auto;
-    background-color: #ff7300
+    background-color: #0f761f
 }
 
 .tooltip h1 {
@@ -782,7 +782,7 @@ a:hover {
     left: 0;
     width: 350px;
     z-index: 2;
-    background-color: #00eeff;
+    background-color: #066c12;
     -webkit-transition: all .3s cubic-bezier(.3,0,.7,1);
     -o-transition: all .3s cubic-bezier(.3,0,.7,1);
     transition: all .3s cubic-bezier(.3,0,.7,1);
@@ -863,7 +863,7 @@ a:hover {
     right: 0;
     width: 350px;
     z-index: 1;
-    background-color: #6600ff;
+    background-color: #066c12;
     -webkit-transition: all .3s cubic-bezier(.3,0,.7,1);
     -o-transition: all .3s cubic-bezier(.3,0,.7,1);
     transition: all .3s cubic-bezier(.3,0,.7,1);
@@ -913,7 +913,7 @@ a:hover {
     display: block;
     -ms-flex-align: stretch;
     align-items: stretch;
-    background-color: #e303fc;
+    background-color: #0f961f;
     -webkit-transition: all .5s cubic-bezier(.3,0,.7,1);
     -o-transition: all .5s cubic-bezier(.3,0,.7,1);
     transition: all .5s cubic-bezier(.3,0,.7,1);
@@ -1237,7 +1237,7 @@ a:hover {
 body,html {
     margin: 0;
     padding: 0;
-    background-color: #689F38;
+    background-color: #19381c;
     overflow: hidden
 }
 
@@ -1260,7 +1260,7 @@ body,html {
 
 button {
     height: 40px;
-    background-color: #EF5350;
+    background-color: #0f721f;
     color: #e9e9e9;
     cursor: pointer;
     border-radius: 4px;
