@@ -25915,7 +25915,7 @@
       , s = function() {
         function e(e) {
             var t = this;
-            void 0 === e && (e = 200),
+            void 0 === e && (e = 50),
             this.level_cap = e,
             this.exp_points = 0,
             this.level = 1,
