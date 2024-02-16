@@ -26328,7 +26328,7 @@
             base_cost: "10",
             base_upgrade_cost: "2000",
             base_gps_fn: function(e) {
-                return new o.a("9999999999").times(e.great_goomy.level)
+                return new o.a("0.2").times(e.great_goomy.level)
             },
             unlock_level: 0
         },
