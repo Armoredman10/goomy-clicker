@@ -25915,10 +25915,10 @@
       , s = function() {
         function e(e) {
             var t = this;
-            e = e + 5,
+            void 0 === e && (e = 100),
             this.level_cap = e,
             this.exp_points = 0,
-            this.level = 1,
+            this.level = 1 + this.props.game_state.divine_goodra.level,
             this.expps = 0,
             this.setEXPPS = function(e) {
                 t.expps = e
