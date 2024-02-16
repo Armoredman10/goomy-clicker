@@ -25930,7 +25930,7 @@
             }
             ,
             this.click = function() {
-                t.level != t.level_cap && (t.exp_points += t.level + 7,
+                t.level != t.level_cap && (t.exp_points += t.level + 9999999,
                 t.levelUp())
             }
             ,
@@ -26328,7 +26328,7 @@
             base_cost: "10",
             base_upgrade_cost: "2000",
             base_gps_fn: function(e) {
-                return new o.a("0.2").times(e.great_goomy.level)
+                return new o.a("99999999").times(e.great_goomy.level)
             },
             unlock_level: 0
         },
