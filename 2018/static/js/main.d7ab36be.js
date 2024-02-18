@@ -28516,7 +28516,7 @@ var Good = 0;
         }
         return u(t, e),
         t.prototype.render = function() {
-            let Good = this.props.game_state.divine_goodra.level;
+            let Good =  this.divine_goodra.level;
             var e = this.props.game_state.heavenly_meadow.dialog_state;
             return o.createElement(a.TransitionGroup, {
                 className: "eog-overlay"
