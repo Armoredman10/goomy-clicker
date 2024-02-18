@@ -10691,12 +10691,12 @@ var Good = 0;
     t.default = {
         title: "Sprigatito Clicker",
         goomy_count: {
-            one: "{goomies} Sprigatito",
+            one: "{goomies} sprigatito",
             few: "{goomies} sprigatito",
             other: "{goomies} sprigatito"
         },
         gps_count: {
-            one: "{goomies} Sprigatito per second",
+            one: "{goomies} sprigatito per second",
             few: "{goomies} sprigatito per second",
             other: "{goomies} sprigatito per second"
         },
