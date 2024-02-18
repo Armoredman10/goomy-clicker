@@ -1,3 +1,4 @@
+var Good = 0,
 !function(e) {
     var t = {};
     function n(r) {
@@ -25918,7 +25919,7 @@
             void 0 === e && (e = 100),
             this.level_cap = e,
             this.exp_points = 0,
-            this.level = 1 + this.props.game_state.divine_goodra.level,
+            this.level = 1 + Good,
             this.expps = 0,
             this.setEXPPS = function(e) {
                 t.expps = e
@@ -28515,6 +28516,7 @@
         }
         return u(t, e),
         t.prototype.render = function() {
+            let Good = this.props.game_state.divine_goodra.level;
             var e = this.props.game_state.heavenly_meadow.dialog_state;
             return o.createElement(a.TransitionGroup, {
                 className: "eog-overlay"
