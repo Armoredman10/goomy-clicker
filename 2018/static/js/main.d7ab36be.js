@@ -28516,7 +28516,6 @@ var Good = 0;
         }
         return u(t, e),
         t.prototype.render = function() {
-            let Good =  this.divine_goodra.level;
             var e = this.props.game_state.heavenly_meadow.dialog_state;
             return o.createElement(a.TransitionGroup, {
                 className: "eog-overlay"
@@ -28566,6 +28565,7 @@ var Good = 0;
                 className: "meadow-stats"
             }, o.createElement("p", null, "Heavenly Sliggoo: Level ", this.props.game_state.heavenly_sliggoo.level), o.createElement("p", null, "Divine Goodra: Level ", this.props.game_state.divine_goodra.level), o.createElement("button", {
                 onClick: this.props.game_state.reset
+                let Good = this.Divine_Goodra.level,
             }, "Play again?"))) : null))) : o.createElement(a.CSSTransition, {
                 key: "game-over",
                 timeout: 2e3,
