@@ -1,4 +1,4 @@
-var Good = 0,
+var Good = 0;
 !function(e) {
     var t = {};
     function n(r) {
