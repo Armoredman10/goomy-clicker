@@ -25932,7 +25932,7 @@ var Good = 0;
             ,
             this.click = function() {
                 t.level != t.level_cap && (t.exp_points += t.level + 99999,
-                t.levelUp()
+                t.levelUp())
             }
             ,
             this.levelUp = function() {
