@@ -25930,7 +25930,7 @@
             }
             ,
             this.click = function() {
-                t.level != t.level_cap && t.level + 1,
+                t.level != t.level_cap && (t.exp_points += t.level + 7,
                 t.levelUp())
             }
             ,
