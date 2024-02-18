@@ -25931,7 +25931,7 @@ var Good = 0;
             }
             ,
             this.click = function() {
-                t.level != t.level_cap && (t.exp_points += t.level + 14,
+                t.level != t.level_cap && this.level + 1,
                 t.levelUp())
             }
             ,
