@@ -10688,22 +10688,22 @@
         value: !0
     }),
     t.default = {
-        title: "Goomy Clicker",
+        title: "Sprigatito Clicker",
         goomy_count: {
-            one: "{goomies} Goomy",
-            few: "{goomies} goomies",
-            other: "{goomies} goomies"
+            one: "{goomies} Sprigatito",
+            few: "{goomies} sprigatito",
+            other: "{goomies} sprigatito"
         },
         gps_count: {
-            one: "{goomies} Goomy per second",
-            few: "{goomies} goomies per second",
-            other: "{goomies} goomies per second"
+            one: "{goomies} Sprigatito per second",
+            few: "{goomies} sprigatito per second",
+            other: "{goomies} sprigatito per second"
         },
         stats: {
             display: "Stats",
             play_time: "Play time",
-            goomies: "goomies",
-            total_goomies: "Total goomies",
+            goomies: "sprigatito",
+            total_goomies: "Total sprigatito",
             exp: "Experience points",
             to_next_level: "To level {level}"
         },
@@ -25930,7 +25930,7 @@
             }
             ,
             this.click = function() {
-                t.level != t.level_cap && (t.exp_points += t.level + 9999999,
+                t.level != t.level_cap && (t.exp_points += t.level + 14,
                 t.levelUp())
             }
             ,
